@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     #  每天8:15、20:15更新
-    - cron: "15 8,20 * * *"
+    - cron: "15 0,7 * * *"
   push:
     branches:
       - main
